@@ -26,6 +26,8 @@ To get this project up and running locally on your computer:
    > **Note:** This has been tested against Django 3.1.2 (and may not work or be "optimal" for other versions).
 1. Assuming you have Python setup, run the following commands (if you're on Windows you may use `py` or `py -3` instead of `python` to start Python):
    ```
+   python -m venv env
+   source env/Scripts/activate
    pip3 install -r requirements.txt
    python3 manage.py makemigrations
    python3 manage.py migrate
